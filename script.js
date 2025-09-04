@@ -2,6 +2,7 @@ const beeIcon = document.querySelector("#beeIcon");
 //console.log(beeIcon);
 
 beeIcon.addEventListener("click", function() {
+    //darkmode eller lightmode
     const body = document.querySelector("body");
     if(body.classList.contains("dark")) {
         body.classList.remove("dark");
@@ -11,3 +12,17 @@ beeIcon.addEventListener("click", function() {
         body.classList.add("dark");
     }
 });
+
+hamburgerIcon.addEventListener("click", function () {
+    // Hente elementet som skal bli synlig
+    const navList = document.querySelector("#navList");
+    //console.log(navList);
+  
+    if(navList.classList.contains("hidden")){
+      navList.classList.remove("hidden");
+      navList.classList.add("navList");
+    } else{
+      navList.classList.remove("navList");
+      navList.classList.add("hidden");
+    }
+  });

@@ -30,3 +30,8 @@
  padding: 0, 16px;
  height: 100px; 
 }
+
+/*nav design*/
+.hidden {
+  display: none;
+}
