@@ -1,0 +1,32 @@
+/* Farge variabler*/
+:root {
+  /*Farge variabler*/
+  --primaryColor: rgb(51, 25, 0); /*Brown*/
+  --secondaryColor: rgb(242, 203, 5); /*Honey*/
+  --beeColorOne: rgb(246,224,0); /*Bee Yellow*/
+  --beeColorTwo: rgb(187,101,40); /*Ruddy Brown*/
+  --beeColorThree: rgb(205,122,0); /*Mustard Brown*/
+  --beeColorFour: rgb(237,167,62); /*Meat Brown*/
+  --beeColorFive: rgb(237,188,78); /*Maximum Yellow Red*/
+  --beeColorSix: rgb(250,211,105); /*Crayola's Orange-Yellow*/
+}
+
+.dark {
+  background: var(--primaryColor);
+  color: var(--beeColorThree);
+}
+
+.light {
+  background-color: var(--beeColorSix);
+  color: var(--primaryColor);
+}
+
+
+/*header Display might change*/
+.header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0, 16px;
+ height: 100px; 
+}
