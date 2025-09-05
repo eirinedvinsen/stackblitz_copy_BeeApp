@@ -31,7 +31,28 @@
  height: 100px; 
 }
 
+.headerIcon {
+  height: 32px;
+  width: 32px;
+}
+
 /*nav design*/
 .hidden {
   display: none;
+}
+
+.icon {
+  background-color: var(--beeColorSix);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+a{
+  color: var(--beeColorThree);
+}
+
+.listStyling{
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
