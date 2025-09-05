@@ -49,6 +49,7 @@
 
 a{
   color: var(--beeColorThree);
+  text-decoration: none;
 }
 
 .listStyling{

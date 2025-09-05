@@ -26,3 +26,16 @@ hamburgerIcon.addEventListener("click", function () {
       navList.classList.add("hidden");
     }
   });
+
+  beeIcon.addEventListener("click", function(){
+    const a = document.querySelector("#test");
+    if(a.classList.contains("dark")){
+      a.classList.remove("dark");
+      a.classList.add("light");
+    } else {
+      a.classList.remove("light");
+      a.classList.add("dark");
+    }
+  });
+
+  
